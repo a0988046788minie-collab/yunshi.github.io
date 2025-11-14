@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #b4bcbe;
+    margin: 0px; 
+}
+nav{
+    background-color: #898e8e;
+    font-family: Arial;
+    text-align: right;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+nav a{
+    padding: 17px 18px;
+    display: inline-block;
+    
+}
+nav a:hover{
+    background-color: #626464;
+    color: white;
+}
+main{
+    padding-top: 70px;
+}
+footer{
+    background-color: #4c5e67;
+    color: rgb(240, 239, 239);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.card{
+    background-color: #f4f4f4;
+    padding-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    margin: 15px 60px;
+    border-radius: 20px;
+    
+}
+.card02{
+    background-color: #f4f4f4;
+    padding-bottom: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    margin: 15px 60px;
+    border-radius: 20px;
+}
+.card03{
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+}
+.card04{
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+.card04 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.self{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.photo{
+    height: 300px;
+    width:300px ;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    
+}
+.progress-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.circle-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #535a74 0deg calc(var(--percentage) * 3.6deg),
+    #9ca2ac calc(var(--percentage) * 3.6deg) 360deg
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inside-circle {
+  width: 110px;
+  height: 110px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 24px;
+
+}
+
+.label {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+.photo01{
+    height: 300px;
+    width:400px ;
+    border-radius: 10px;
+    float: left;
+    margin-right: 30px;
+}
+.word{
+    max-width: 1400px;
+  
+}
